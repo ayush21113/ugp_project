@@ -1,0 +1,14 @@
+import numpy as np
+K = 10
+N = 10
+DELTA = 5
+GAMMA = 5
+M_SAMPLES = 5
+LAMBDA = 1.0
+T_LIMIT = 3.0
+LR = 0.05
+DELTA_THRESHOLD = 1e-07
+MAX_ITER = 500
+BETA1 = 0.9
+BETA2 = 0.999
+EPS = 1e-8
