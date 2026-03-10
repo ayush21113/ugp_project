@@ -1,0 +1,35 @@
+
+--- Testing: LR=0.01, Threshold=1e-06, T_Limit=3.0, Init=cyclic ---
+Iteration 0, Error: 4.400000, Grad Norm: 0.00000000
+Converged at iteration 1, Error: 4.400000, Grad Norm: 0.00651858
+Initial Error: 70.200000
+Final Error: 4.400000
+Total Change in B: 0.00000000
+
+--- Testing: LR=0.1, Threshold=1e-07, T_Limit=3.0, Init=cyclic ---
+Iteration 0, Error: 4.000000, Grad Norm: 0.00000000
+Converged at iteration 1, Error: 4.000000, Grad Norm: 0.00000000
+Initial Error: 64.400000
+Final Error: 4.000000
+Total Change in B: 0.00000002
+
+--- Testing: LR=0.01, Threshold=1e-07, T_Limit=10.0, Init=cyclic ---
+Iteration 0, Error: 0.000000, Grad Norm: 0.00000000
+Converged at iteration 1, Error: 0.000000, Grad Norm: 0.00000000
+Initial Error: 147.400000
+Final Error: 0.000000
+Total Change in B: 0.00000001
+
+--- Testing: LR=0.05, Threshold=1e-07, T_Limit=3.0, Init=random ---
+Iteration 0, Error: 10.000000, Grad Norm: 0.00000000
+Converged at iteration 1, Error: 10.000000, Grad Norm: 0.00000000
+Initial Error: 10.000000
+Final Error: 10.000000
+Total Change in B: 0.00000000
+
+
+=== Final Observations Summary ===
+Exp 0: Init=cyclic, LR=0.01 -> Change in B: 0.0000, Error Drop: 65.8000
+Exp 1: Init=cyclic, LR=0.1 -> Change in B: 0.0000, Error Drop: 60.4000
+Exp 2: Init=cyclic, LR=0.01 -> Change in B: 0.0000, Error Drop: 147.4000
+Exp 3: Init=random, LR=0.05 -> Change in B: 0.0000, Error Drop: 0.0000
